@@ -10,4 +10,12 @@ export class Timezone {
   diff(timezone: Timezone): number {
     return Math.abs(this.offset - timezone.offset)
   }
+
+  toString(): string {
+    return this.zone
+  }
+
+  toJSON(): string {
+    return this.zone
+  }
 }
