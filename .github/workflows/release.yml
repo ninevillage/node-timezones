@@ -17,13 +17,13 @@ jobs:
       - run: yarn install
       - run: |
           if [ "$NODE_AUTH_TOKEN" != "" ]; then
-             yarn publish --access public
+             yarn publish --access public --non-interactive
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - uses: actions/setup-node@v1
         with:
           registry-url: 'https://npm.pkg.github.com'
-      - run: yarn publish --access public
+      - run: yarn publish --access public --non-interactive
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
