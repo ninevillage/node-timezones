@@ -1,0 +1,51 @@
+{
+  "name": "@ninevillage/NEW_LIB_NAME",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "toggl",
+    "api",
+    "library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninevillage/<NEW_REPO>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ninevillage/<NEW_REPO>/issues"
+  },
+  "homepage": "https://github.com/ninevillage/<NEW_REPO>#readme",
+  "license": "MIT",
+  "contributors": [],
+  "scripts": {
+    "build": "tsc",
+    "prebuild": "rimraf dist",
+    "lint": "eslint src/**/*.{ts,tsx}",
+    "lint:fix": "yarn lint --fix",
+    "test": "jest",
+    "test:watch": "yarn test --watch",
+    "coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage"
+  },
+  "dependencies": {
+    "@types/node": "^13.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

@@ -1,0 +1,21 @@
+name: Tests
+
+on: push
+
+jobs:
+  tests:
+    name: tests with Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['10', '12', '13']
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+          registry-url: 'https://registry.npmjs.org'
+      - run: yarn install
+      - run: yarn lint
+      - run: yarn test
