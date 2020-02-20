@@ -1,11 +1,20 @@
-# node-typescript-lib-template
+# node-timezones
 
-just a simple typescript starter template for node libs
+just a simple typescript lib with timezones
 
-![Tests](https://github.com/ninevillage/node-typescript-lib-template/workflows/Tests/badge.svg)
-![Release](https://github.com/ninevillage/node-typescript-lib-template/workflows/Release/badge.svg)
+![Tests](https://github.com/ninevillage/node-timezones/workflows/Tests/badge.svg)
+![Release](https://github.com/ninevillage/node-timezones/workflows/Release/badge.svg)
 
-1. Don't forget to change name in `package.json`
-2. Update Repository info
-3. Update this readme
-4. remove `private: true` in `package.json` if you want to publish it and disable `release action`
+## install
+
+```bash
+yarn add @ninevillage/timezones
+```
+
+## usage
+
+```typescript
+import { UTC } from '@ninevillage/timezones'
+
+console.log(UTC)
+```
