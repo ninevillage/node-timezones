@@ -1,8 +1,7 @@
 {
-  "name": "@ninevillage/NEW_LIB_NAME",
+  "name": "@ninevillage/timezones",
   "version": "0.0.0",
   "description": "",
-  "private": true,
   "main": "dist/index.js",
   "engines": {
     "node": ">=10"
@@ -14,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninevillage/<NEW_REPO>.git"
+    "url": "git+https://github.com/ninevillage/timezones.git"
   },
   "bugs": {
-    "url": "https://github.com/ninevillage/<NEW_REPO>/issues"
+    "url": "https://github.com/ninevillage/timezones/issues"
   },
-  "homepage": "https://github.com/ninevillage/<NEW_REPO>#readme",
+  "homepage": "https://github.com/ninevillage/timezones#readme",
   "license": "MIT",
   "contributors": [],
   "scripts": {
@@ -31,9 +30,7 @@
     "test:watch": "yarn test --watch",
     "coverage": "jest --collectCoverageFrom=src/**/*.ts --coverage"
   },
-  "dependencies": {
-    "@types/node": "^13.7.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.1.2",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
