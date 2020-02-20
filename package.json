@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ninevillage/timezones.git"
+    "url": "git+https://github.com/ninevillage/node-timezones.git"
   },
   "bugs": {
-    "url": "https://github.com/ninevillage/timezones/issues"
+    "url": "https://github.com/ninevillage/node-timezones/issues"
   },
-  "homepage": "https://github.com/ninevillage/timezones#readme",
+  "homepage": "https://github.com/ninevillage/node-timezones#readme",
   "license": "MIT",
   "contributors": [],
   "scripts": {
