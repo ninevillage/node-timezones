@@ -1,4 +1,4 @@
-# node-timezones
+# @ninevillage/timezones
 
 just a simple typescript lib with timezones
 
