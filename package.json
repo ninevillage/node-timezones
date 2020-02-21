@@ -7,9 +7,8 @@
     "node": ">=10"
   },
   "keywords": [
-    "toggl",
-    "api",
-    "library"
+    "timezones",
+    "IANA"
   ],
   "repository": {
     "type": "git",
