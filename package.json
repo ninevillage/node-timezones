@@ -1,6 +1,6 @@
 {
   "name": "@ninevillage/timezones",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "IANA timezone database as package",
   "main": "dist/index.js",
   "engines": {
