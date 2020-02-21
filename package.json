@@ -7,7 +7,7 @@
     "node": ">=10"
   },
   "keywords": [
-    "timezones",
+    "timezone",
     "IANA"
   ],
   "repository": {
